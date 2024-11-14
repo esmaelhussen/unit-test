@@ -1,0 +1,15 @@
+{
+  "name": "unit-test",
+  "version": "1.0.0",
+  "description": "Practice writing practical tests for JavaScript functions using the Jest testing framework. This exercise emphasizes the AAA (Arrange-Act-Assert) pattern to ensure readability and clarity for other developers. It also provides hands-on experience with the Test-Driven Development (TDD) approach.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
