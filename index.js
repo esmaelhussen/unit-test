@@ -8,10 +8,10 @@ const stringLength = (string) => {
 };
 
 const reverseString = (string) => {
-  string.split("").reverse().join("");
+  return string.split("").reverse().join("");
 };
 
-class calculator {
+class Calculator {
   add(x, y) {
     return x + y;
   }
@@ -31,9 +31,9 @@ const capital = (string) => {
     return "no string found";
   }
   return string
-    .split("")
-    .map((word) => charAt(0).toUpperCase().concat(word.slice(1)))
-    .join("");
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 };
 
-module.exports = { stringLength, reverseString, calculator, capital };
+module.exports = { stringLength, reverseString, Calculator, capital };

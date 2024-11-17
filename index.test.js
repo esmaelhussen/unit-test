@@ -1,7 +1,7 @@
 const {
   stringLength,
   reverseString,
-  calculator,
+  Calculator,
   capital,
 } = require("./index.js");
 
@@ -30,9 +30,9 @@ describe("Calculator ", () => {
   });
 
   describe("Difference of Two Numbers", () => {
-    test("Test 1", () => expect(calculator.sub(25, 5)).toEqual(20));
-    test("Test 2", () => expect(calculator.sub(10, 10)).toEqual(0));
-    test("Test 3", () => expect(calculator.sub(35, 15)).toEqual(20));
+    test("Test 1", () => expect(calculator.subt(25, 5)).toEqual(20));
+    test("Test 2", () => expect(calculator.subt(10, 10)).toEqual(0));
+    test("Test 3", () => expect(calculator.subt(35, 15)).toEqual(20));
   });
 
   describe("product of Two Numbers", () => {
