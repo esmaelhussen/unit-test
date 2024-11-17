@@ -1,9 +1,5 @@
-const {
-  stringLength,
-  reverseString,
-  Calculator,
-  capital,
-} = require("./index.js");
+
+import { stringLength,reverseString,Calculator,capital } from "./index.js";
 
 test("string between 0 and 10", () => {
   expect(stringLength("esmaelH")).toBe(7);
